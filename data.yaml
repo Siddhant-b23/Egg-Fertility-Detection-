@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['FER', 'INF']
+
+roboflow:
+  workspace: egg-candling-project
+  project: egg-candling-v1.0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/egg-candling-project/egg-candling-v1.0/dataset/1
